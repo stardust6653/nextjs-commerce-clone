@@ -1,0 +1,46 @@
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0 300px;
+  font-size: 40px;
+}
+
+.cartCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.cartCard:last-child {
+  border-bottom: none;
+}
+
+.imgCard {
+  width: 200px;
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+
+.productInfo {
+  width: 100%;
+  padding: 10px 0 10px 30px;
+}
+
+.productName {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price {
+  margin: 50px 10px 0 0;
+  font-size: 1.5rem;
+  display: block;
+  text-align: end;
+  color: teal;
+  font-weight: 700;
+}

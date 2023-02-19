@@ -1,0 +1,28 @@
+.itemCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  height: 360px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.itemName {
+  height: 60px;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.type {
+  color: tomato;
+}
+
+.price {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 22px;
+  color: teal;
+}
